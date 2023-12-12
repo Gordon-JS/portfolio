@@ -23,7 +23,7 @@ const greeting = {
   username: "Jonathan Gordon",
   title: "Hi all, I'm Jonathan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Python / JavaScript / Reactjs / Nodejs / React Native / Django / FastAPI / Tailwind CSS and some other cool libraries and frameworks."
+    "I am a passionate Full Stack Software Developer 🚀! Goal oriented having an experience of building Web and Mobile applications with Python / JavaScript / Reactjs / Nodejs / React Native / Django / FastAPI / Tailwind CSS and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1CYyJ2B9-wQHgM9sVqvNvzNsuAnSbqaaBetQ8HhFeCa0/edit?usp=sharing", // Set to empty to hide the button
@@ -91,13 +91,41 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "postgreSQL",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "fastapi",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "django",
+      fontAwesomeClassname: "",
+    },
+    {
+      skillName: "tailwindCSS",
+      fontAwesomeClassname: "",
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -189,7 +217,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -283,7 +311,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -307,7 +335,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -326,7 +354,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -339,22 +367,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me! ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "gordonjohn123@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
