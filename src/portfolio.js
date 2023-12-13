@@ -23,12 +23,12 @@ const greeting = {
   username: "Jonathan Gordon",
   title: "Hi all, I'm Jonathan",
   subTitle: emoji(
-    "I am a passionate Full Stack Software Developer 🚀! Goal oriented having an experience of building Web and Mobile applications with Python / JavaScript / Reactjs / Nodejs / React Native / Django / FastAPI / Tailwind CSS and some other cool libraries and frameworks."
-  ),
-  resumeLink:
+    "I'm a full stack software developer driven by a passion for problem solving and innovation. My professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create innovative and effective solutions that exceed end-users expectations. I thrive in the ever-evolving programming landscape, and enjoy the challenge of mastering new tools, programming languages, and frameworks. Eager to continue my development, I am excited to grow and expand my skills as a software engineer!"
+    ),
+    resumeLink:
     "https://docs.google.com/document/d/1CYyJ2B9-wQHgM9sVqvNvzNsuAnSbqaaBetQ8HhFeCa0/edit?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
-};
+    displayGreeting: true // Set false to hide this section, defaults to true
+  };
 
 // Social Media Links
 
