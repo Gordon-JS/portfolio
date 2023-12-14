@@ -7,9 +7,11 @@ import {
   greeting,
   workExperiences,
   skillsSection,
+  educationInfo, // added education tab
   openSource,
   blogSection,
   talkSection,
+  bigProjects, // added projects tab
   achievementSection
 } from "../../portfolio";
 
@@ -21,6 +23,9 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+
+  const viewEducation = educationInfo.display; // education tab
+  const viewProjects = bigProjects.display; // projects tab
 
   return (
     <Headroom>
@@ -44,9 +49,21 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {/* education tab */}
+          {viewEducation && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
+            </li>
+          )}
+          {/* projects tab */}
+          {viewProjects && (
+            <li>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewOpenSource && (
