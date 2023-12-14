@@ -14,13 +14,6 @@ export default function SoftwareSkill() {
               {skills.fontAwesomeClassname ? (
                 // Font icon case
                 <i className={skills.fontAwesomeClassname}></i>
-              ) : skills.iconPath ? (
-                // PNG image case
-                <img
-                  src={skills.iconPath} // Make sure to add the appropriate property in your data
-                  alt={skills.skillName}
-                  className="software-skill-image"
-                  />
               ) : skills.iconComponent ? (
                 // Custom React component case
                 <span className="icon-component">{skills.iconComponent}</span>
@@ -33,24 +26,3 @@ export default function SoftwareSkill() {
       </div>
   );
 }
-
-//           </p>
-//               )
-//               )}
-//             </li>{
-//             return (
-//               <li
-//                 key={i}
-//                 className="software-skill-inline"
-//                 name={skills.skillName}
-//               >
-//                 <i className={skills.fontAwesomeClassname}></i>
-//                 <p>{skills.skillName}</p>
-//               </li>
-//             );
-//           })}
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// }

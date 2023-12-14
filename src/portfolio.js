@@ -135,7 +135,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Hack Reactor",
-      logo: require("./assets/images/hackreactorLogo.png"),
+      logo: require("./assets/images/hackreactor.png"),
       subHeader: "Advanced Software Engineering Certificate",
       duration: "2023",
       desc: "Hack Reactor Scholarship Recipient",
