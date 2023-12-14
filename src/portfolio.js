@@ -2,6 +2,8 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
+import { SiHtml5, SiCss3, SiPython, SiJavascript, SiBootstrap, SiDjango, SiFastapi, SiReact, SiTailwindcss, SiDocker,  SiMongodb, SiPostgresql  } from 'react-icons/si';
+import { DiNodejs, DiNpm, DiSass } from "react-icons/di";
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -23,7 +25,7 @@ const greeting = {
   username: "Jonathan Gordon",
   title: "Hi all, I'm Jonathan",
   subTitle: emoji(
-    "I'm a full stack software developer driven by a passion for problem solving and innovation. My professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create innovative and effective solutions that exceed end-users expectations. I thrive in the ever-evolving programming landscape, and enjoy the challenge of mastering new tools, programming languages, and frameworks. Eager to continue my development, I am excited to grow and expand my skills as a software engineer!"
+    "I'm a full stack software developer driven by a passion for problem solving and innovation. My professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create innovative and effective solutions that exceed end-users expectations. I thrive in the ever-evolving programming landscape, and enjoy the challenge of mastering new tools, programming languages, and frameworks. I am eager to continue my development and expand my skills as a software engineer!"
     ),
     resumeLink:
     "https://docs.google.com/document/d/1CYyJ2B9-wQHgM9sVqvNvzNsuAnSbqaaBetQ8HhFeCa0/edit?usp=sharing", // Set to empty to hide the button
@@ -52,7 +54,7 @@ const skillsSection = {
   subTitle: "DEDICATED FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Passionate about crafting robust and efficient Back-end solutions"),
-    emoji("⚡ Experienced in creating Single Page Applications (SPA) and Progressive Web Applications (PWA)"),
+    emoji("⚡ Experienced in creating Single Page Applications (SPA)"),
     emoji(
       "⚡ Develop highly interactive Front-end / User Interfaces for your web and mobile applications"
     ),
@@ -64,67 +66,63 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      iconComponent: <SiHtml5 />,
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      iconComponent: <SiCss3 />,
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      iconComponent: <SiPython />,
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "postgreSQL",
-      fontAwesomeClassname: "",
-    },
-    {
-      skillName: "mongodb",
-      fontAwesomeClassname: "",
-    },
-    {
-      skillName: "fastapi",
-      fontAwesomeClassname: "",
+      skillName: "javascript",
+      iconComponent: <SiJavascript />,
     },
     {
       skillName: "bootstrap",
-      fontAwesomeClassname: "",
+      iconComponent: <SiBootstrap />,
     },
     {
       skillName: "django",
-      fontAwesomeClassname: "",
+      iconComponent: <SiDjango />,
+    },
+    {
+      skillName: "fastapi",
+      iconComponent: <SiFastapi />,
+    },
+    {
+      skillName: "reactjs",
+      iconComponent: <SiReact />,
     },
     {
       skillName: "tailwindCSS",
-      fontAwesomeClassname: "",
+      iconComponent: <SiTailwindcss />,
+    },
+    {
+      skillName: "docker",
+      iconComponent: <SiDocker />,
+    },
+    {
+      skillName: "mongodb",
+      iconComponent: <SiMongodb />,
+    },
+    {
+      skillName: "postgreSQL",
+      iconComponent: <SiPostgresql />,
+    },
+    {
+      skillName: "npm",
+      iconComponent: <DiNpm />,
+    },
+    {
+      skillName: "nodejs",
+      iconComponent: <DiNodejs />,
+    },
+    {
+      skillName: "sass",
+      iconComponent: <DiSass />,
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -373,7 +371,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me! ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project, work opportunity, or just want to say hi? My Inbox is open for all.",
   email_address: "gordonjohn123@gmail.com"
 };
 
@@ -384,7 +382,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
