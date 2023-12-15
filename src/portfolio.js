@@ -183,29 +183,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Cloud Technology Consultant",
+      company: "Oracle",
+      companylogo: require("./assets/images/oracle.png"),
+      date: "June 2019 – June 2021",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Developed customer relationships & progressed sales cycles resulting in $200k+ deals.",
+        "Trained in Technical Program Management.",
+        "Co-Founded Social Selling Team, assisted the hiring, onboarding, and training of 20+ candidates."
+    ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Sales & Marketing Associate",
+      company: "Bozzuto",
+      companylogo: require("./assets/images/bozzuto.png"),
+      date: "June 2021 – November 2022",
+      desc: "",
+      descBullets: [
+        "Fostered hundreds of relationships resulting in +20% Online Reputation Assessment(ORA) Growth.",
+        "Managed Sales & Marketing Team resulting in +8% Occupancy Growth.",
+        "2x Bozzuto Sales Achiever of the Month (Dec ‘21, May ‘22)."
+    ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineering Student",
+      company: "Hack Reactor",
+      companylogo: require("./assets/images/hackreactorlogo2.png"),
+      date: "June 2023 - November 2023",
+      desc: "Galvanize / Hack Reactor Scholarship Recipient",
+      descBullets: [
+        "Programming Languages | Python 3, JavaScript ES6+, SQL, HTML5, CSS",
+        "Front-End | React, Redux Toolkit, TailwindCSS, DOM manipulation, WebSockets, Bootstrap, NPM, Sass",
+        "Back-End | Django 4, FastAPI, PostgreSQL, MongoDB, RabbitMQ",
+        "System Design | Docker, Microservices, Domain-driven design, Message passing, Event sourcing"
+    ]
     }
   ]
 };
