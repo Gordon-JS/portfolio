@@ -81,20 +81,20 @@ https://fontawesome.com/icons?d=gallery */
       iconComponent: <SiJavascript />,
     },
     {
-      skillName: "bootstrap",
-      iconComponent: <SiBootstrap />,
+      skillName: "fastapi",
+      iconComponent: <SiFastapi />,
     },
     {
       skillName: "django",
       iconComponent: <SiDjango />,
     },
     {
-      skillName: "fastapi",
-      iconComponent: <SiFastapi />,
-    },
-    {
       skillName: "reactjs",
       iconComponent: <SiReact />,
+    },
+    {
+      skillName: "bootstrap",
+      iconComponent: <SiBootstrap />,
     },
     {
       skillName: "tailwindCSS",
@@ -234,28 +234,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pickleplay_logo.png"),
+      projectName: "PicklePlay",
+      projectDesc: "Pickleball Matchmaking Service",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Repository",
+          url: "https://gitlab.com/gitjaacd/pickle-play"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/autohaven_logo.png"),
+      projectName: "AutoHaven",
+      projectDesc: "Automobile Dealership Management",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Repository",
+          url: "https://gitlab.com/jgordon123/autohaven"
         }
       ]
     }
