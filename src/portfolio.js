@@ -131,7 +131,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Hack Reactor",
@@ -182,6 +182,19 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "University of California, Los Angeles",
+      company: "UCLA",
+      companylogo: require("./assets/images/uclaLogo.png"),
+      date: "September 2015 – June 2019",
+      desc: "Bachelor of Arts in Political Sciene, Minor in Philosophy",
+      descBullets: [
+        "Afrikan Student Union.",
+        "Coaching Corps Vice President.",
+        "Sigma Chi Fraternity.",
+        "Bruin Woods Athletic Director"
+    ]
+    },
     {
       role: "Cloud Technology Consultant",
       company: "Oracle",
@@ -381,7 +394,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me! ☎️"),
+  title: "Contact Me!",
   subtitle:
     "Discuss a project, work opportunity, or just want to say hi? My Inbox is open for all.",
   email_address: "gordonjohn123@gmail.com"
