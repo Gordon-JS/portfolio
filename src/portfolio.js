@@ -226,10 +226,9 @@ const workExperiences = {
       date: "June 2023 - November 2023",
       desc: "Galvanize / Hack Reactor Scholarship Recipient",
       descBullets: [
-        "Programming Languages | Python 3, JavaScript ES6+, SQL, HTML5, CSS",
-        "Front-End | React, Redux Toolkit, TailwindCSS, DOM manipulation, WebSockets, Bootstrap, NPM, Sass",
-        "Back-End | Django 4, FastAPI, PostgreSQL, MongoDB, RabbitMQ",
-        "System Design | Docker, Microservices, Domain-driven design, Message passing, Event sourcing"
+        "Applied AGILE methodology, emphasizing PostgreSQL database design and wireframe creation for optimal performance.",
+        "Ensured secure user authentication with JWTdown, prioritizing data protection and privacy.",
+        "Engineered RESTful APIs and a Django-based Poller for efficient real-time communication."
     ]
     }
   ]
