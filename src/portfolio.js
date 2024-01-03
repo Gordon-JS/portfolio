@@ -257,6 +257,10 @@ const bigProjects = {
         {
           name: "Visit Repository",
           url: "https://gitlab.com/gitjaacd/pickle-play"
+        },
+        {
+          name: "Visit Site",
+          url: "https://gitjaacd.gitlab.io/pickle-play/"
         }
         //  you can add extra buttons here.
       ]
