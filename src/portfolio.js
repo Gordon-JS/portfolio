@@ -187,12 +187,13 @@ const workExperiences = {
       company: "UCLA",
       companylogo: require("./assets/images/uclaLogo.png"),
       date: "September 2015 – June 2019",
-      desc: "Bachelor of Arts in Political Sciene, Minor in Philosophy",
+      desc: "Bachelor of Arts in Political Science, Minor in Philosophy",
       descBullets: [
         "Afrikan Student Union.",
         "Coaching Corps Vice President.",
         "Sigma Chi Fraternity.",
-        "Bruin Woods Athletic Director"
+        "Bruin Woods Athletic Director.",
+        "HR Assistant Athletics Department."
     ]
     },
     {
