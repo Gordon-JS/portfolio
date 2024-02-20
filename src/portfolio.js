@@ -246,7 +246,7 @@ const workExperiences = {
         "Transitioned monolith to microservices using Dockerized RESTful APIs, optimizing PostgreSQL infrastructure and a Django-based Poller for improved app performance and real time communication.",
         "Integrated React front-end components for intuitive interaction with microservices, enhancing application management.",
         "Leveraged AGILE methodology, emphasizing SQL database schema design and wireframe creation for optimal performance.",
-        "Ensured secure user authentication with JWTdown, prioritizing data protection and privacy.",
+        "Ensured secure user authentication with JWTdown, prioritizing data protection and privacy."
       ]
     }
   ]
@@ -256,7 +256,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: false, // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -364,7 +364,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",

@@ -28,7 +28,7 @@ export default function Projects() {
         })
         .catch(function (error) {
           console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
+            // `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
           );
           setrepoFunction("Error");
         });
