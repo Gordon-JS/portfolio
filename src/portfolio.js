@@ -2,8 +2,21 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-import { SiHtml5, SiCss3, SiPython, SiJavascript, SiBootstrap, SiDjango, SiFastapi, SiReact, SiTailwindcss, SiDocker,  SiMongodb, SiPostgresql  } from 'react-icons/si';
-import { DiNodejs, DiNpm, DiSass } from "react-icons/di";
+import {
+  SiHtml5,
+  SiCss3,
+  SiPython,
+  SiJavascript,
+  SiBootstrap,
+  SiDjango,
+  SiFastapi,
+  SiReact,
+  SiTailwindcss,
+  SiDocker,
+  SiMongodb,
+  SiPostgresql
+} from "react-icons/si";
+import {DiNodejs, DiNpm, DiSass} from "react-icons/di";
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -26,11 +39,11 @@ const greeting = {
   title: "Hi all, I'm Jonathan",
   subTitle: emoji(
     "I'm a full stack software developer driven by a passion for problem solving and innovation. My professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create innovative and effective solutions that exceed end-users expectations. I thrive in the ever-evolving programming landscape, and enjoy the challenge of mastering new tools, programming languages, and frameworks. I am eager to continue my development and expand my skills as a software engineer!"
-    ),
-    resumeLink:
+  ),
+  resumeLink:
     "https://docs.google.com/document/d/1CYyJ2B9-wQHgM9sVqvNvzNsuAnSbqaaBetQ8HhFeCa0/edit?usp=sharing", // Set to empty to hide the button
-    displayGreeting: true // Set false to hide this section, defaults to true
-  };
+  displayGreeting: true // Set false to hide this section, defaults to true
+};
 
 // Social Media Links
 
@@ -51,13 +64,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DEDICATED FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "DEDICATED FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Passionate about crafting robust and efficient Back-end solutions"),
+    emoji(
+      "⚡ Passionate about crafting robust and efficient Back-end solutions"
+    ),
     emoji("⚡ Experienced in creating Single Page Applications (SPA)"),
     emoji(
       "⚡ Develop highly interactive Front-end / User Interfaces for your web and mobile applications"
-    ),
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -66,64 +82,64 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      iconComponent: <SiHtml5 />,
+      iconComponent: <SiHtml5 />
     },
     {
       skillName: "css3",
-      iconComponent: <SiCss3 />,
+      iconComponent: <SiCss3 />
     },
     {
       skillName: "python",
-      iconComponent: <SiPython />,
+      iconComponent: <SiPython />
     },
     {
       skillName: "javascript",
-      iconComponent: <SiJavascript />,
+      iconComponent: <SiJavascript />
     },
     {
       skillName: "fastapi",
-      iconComponent: <SiFastapi />,
+      iconComponent: <SiFastapi />
     },
     {
       skillName: "django",
-      iconComponent: <SiDjango />,
+      iconComponent: <SiDjango />
     },
     {
       skillName: "reactjs",
-      iconComponent: <SiReact />,
+      iconComponent: <SiReact />
     },
     {
       skillName: "bootstrap",
-      iconComponent: <SiBootstrap />,
+      iconComponent: <SiBootstrap />
     },
     {
       skillName: "tailwindCSS",
-      iconComponent: <SiTailwindcss />,
+      iconComponent: <SiTailwindcss />
     },
     {
       skillName: "docker",
-      iconComponent: <SiDocker />,
+      iconComponent: <SiDocker />
     },
     {
       skillName: "mongodb",
-      iconComponent: <SiMongodb />,
+      iconComponent: <SiMongodb />
     },
     {
       skillName: "postgreSQL",
-      iconComponent: <SiPostgresql />,
+      iconComponent: <SiPostgresql />
     },
     {
       skillName: "npm",
-      iconComponent: <DiNpm />,
+      iconComponent: <DiNpm />
     },
     {
       skillName: "nodejs",
-      iconComponent: <DiNodejs />,
+      iconComponent: <DiNodejs />
     },
     {
       skillName: "sass",
-      iconComponent: <DiSass />,
-    },
+      iconComponent: <DiSass />
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -138,7 +154,7 @@ const educationInfo = {
       logo: require("./assets/images/hackreactor.png"),
       subHeader: "Advanced Software Engineering Certificate",
       duration: "2023",
-      desc: "Hack Reactor Scholarship Recipient",
+      desc: "Hack Reactor Scholarship Recipient"
     },
     {
       schoolName: " University of California, Los Angeles",
@@ -150,7 +166,7 @@ const educationInfo = {
         "Afrikan Student Union",
         "Coaching Corps Club Vice President",
         "Sigma Chi Fraternity",
-        "Bruin Woods Athletic Director",
+        "Bruin Woods Athletic Director"
       ]
     }
   ]
@@ -194,7 +210,7 @@ const workExperiences = {
         "Sigma Chi Fraternity.",
         "Bruin Woods Athletic Director.",
         "HR Assistant Athletics Department."
-    ]
+      ]
     },
     {
       role: "Cloud Technology Consultant",
@@ -206,7 +222,7 @@ const workExperiences = {
         "Developed customer relationships & progressed sales cycles resulting in $200k+ deals.",
         "Trained in Technical Program Management.",
         "Co-Founded Social Selling Team, assisted the hiring, onboarding, and training of 20+ candidates."
-    ]
+      ]
     },
     {
       role: "Senior Sales & Marketing Associate",
@@ -218,7 +234,7 @@ const workExperiences = {
         "Fostered hundreds of relationships resulting in +20% Online Reputation Assessment(ORA) Growth.",
         "Managed Sales & Marketing Team resulting in +8% Occupancy Growth.",
         "2x Bozzuto Sales Achiever of the Month (Dec ‘21, May ‘22)."
-    ]
+      ]
     },
     {
       role: "Software Engineering Student",
@@ -227,10 +243,11 @@ const workExperiences = {
       date: "June 2023 - November 2023",
       desc: "Galvanize / Hack Reactor Scholarship Recipient",
       descBullets: [
-        "Applied AGILE methodology, emphasizing PostgreSQL database design and wireframe creation for optimal performance.",
+        "Transitioned monolith to microservices using Dockerized RESTful APIs, optimizing PostgreSQL infrastructure and a Django-based Poller for improved app performance and real time communication.",
+        "Integrated React front-end components for intuitive interaction with microservices, enhancing application management.",
+        "Leveraged AGILE methodology, emphasizing SQL database schema design and wireframe creation for optimal performance.",
         "Ensured secure user authentication with JWTdown, prioritizing data protection and privacy.",
-        "Engineered RESTful APIs and a Django-based Poller for efficient real-time communication."
-    ]
+      ]
     }
   ]
 };
