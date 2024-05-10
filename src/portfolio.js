@@ -216,7 +216,7 @@ const workExperiences = {
       role: "Cloud Technology Consultant",
       company: "Oracle",
       companylogo: require("./assets/images/oracle.png"),
-      date: "June 2019 – June 2021",
+      date: "July 2019 – June 2021",
       desc: "",
       descBullets: [
         "Developed customer relationships & progressed sales cycles resulting in $200k+ deals.",
