@@ -255,7 +255,7 @@ const workExperiences = {
       companylogo: require("./assets/images/datadogLogo.png"),
       date: "June 2024 - present",
       descBullets: [
-        "Specialized in Application Performance Monitoring, resolving complex customer issues through deep investigation into traces, spans, and customer architecture.",
+        "Specialized in Application Performance Monitoring, resolving 900+ complex customer issues through deep investigation into traces, spans, and customer architecture.",
         "Partnered cross-functionally with Product and Engineering teams by documenting and channeling field insights into actionable feedback ultimately influencing roadmap prioritization and improving feature usability.",
         "Led technical calls, trainings, and deep-dive presentations to internal and external stakeholders, translating complex observability and tracing concepts into actionable guidance for development and operations teams.",
         "Improved reusable solution architectures and best-practice playbooks that addressed recurring customer use cases, enabling scale across multiple accounts and reducing redundant customer requests."
