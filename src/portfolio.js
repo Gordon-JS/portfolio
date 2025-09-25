@@ -38,7 +38,7 @@ const greeting = {
   username: "Jonathan Gordon",
   title: "Hi all, I'm Jonathan",
   subTitle: emoji(
-    "I'm a full stack software developer driven by a passion for problem solving and innovation. My professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create innovative and effective solutions that exceed end-users expectations. I thrive in the ever-evolving programming landscape, and enjoy the challenge of mastering new tools, programming languages, and frameworks. I am eager to continue my development and expand my skills as a software engineer!"
+    "I'm a full stack software developer driven by a passion for problem solving and innovation. My professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create effective solutions, troubleshoot complex issues, and improve end-user experiences as a Solutions Engineer at Datadog. I thrive in the ever-evolving programming landscape, and enjoy the challenge of solving difficult problems, mastering new tools, and advancing my knowledge of programming languages and frameworks. I am eager to continue my development and expand my engineering skills!"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1CYyJ2B9-wQHgM9sVqvNvzNsuAnSbqaaBetQ8HhFeCa0/edit?usp=sharing", // Set to empty to hide the button
@@ -232,7 +232,7 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Fostered hundreds of relationships resulting in +20% Online Reputation Assessment(ORA) Growth.",
-        "Managed Sales & Marketing Team resulting in +8% Occupancy Growth.",
+        "Managed Sales & Marketing Team resulting in +14% Occupancy Growth YoY.",
         "2x Bozzuto Sales Achiever of the Month (Dec ‘21, May ‘22)."
       ]
     },
@@ -248,7 +248,19 @@ const workExperiences = {
         "Leveraged AGILE methodology, emphasizing SQL database schema design and wireframe creation for optimal performance.",
         "Ensured secure user authentication with JWTdown, prioritizing data protection and privacy."
       ]
-    }
+    },
+    {
+      role: "Technical Solutions Engineer",
+      company: "Datadog",
+      companylogo: require("./assets/images/datadogLogo.png"),
+      date: "June 2024 - present",
+      descBullets: [
+        "Specialized in Application Performance Monitoring, resolving complex customer issues through deep investigation into traces, spans, and customer architecture.",
+        "Partnered cross-functionally with Product and Engineering teams by documenting and channeling field insights into actionable feedback ultimately influencing roadmap prioritization and improving feature usability.",
+        "Led technical calls, trainings, and deep-dive presentations to internal and external stakeholders, translating complex observability and tracing concepts into actionable guidance for development and operations teams.",
+        "Improved reusable solution architectures and best-practice playbooks that addressed recurring customer use cases, enabling scale across multiple accounts and reducing redundant customer requests."
+      ]
+    },
   ]
 };
 
