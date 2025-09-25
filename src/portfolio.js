@@ -38,7 +38,7 @@ const greeting = {
   username: "Jonathan Gordon",
   title: "Hi all, I'm Jonathan",
   subTitle: emoji(
-    "I'm a full stack software developer driven by a passion for problem solving and innovation. My professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create effective solutions, troubleshoot complex issues, and improve end-user experiences as a Solutions Engineer at Datadog. I thrive in the ever-evolving programming landscape, and enjoy the challenge of solving difficult problems, mastering new tools, and advancing my knowledge of programming languages and frameworks. I am eager to continue my development and expand my engineering skills!"
+    "I'm a full stack software developer driven by a passion for problem solving and innovation. Following my graduation from UCLA, my professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create effective solutions, troubleshoot complex issues, and improve end-user experiences as a Solutions Engineer at Datadog. I thrive in the ever-evolving programming landscape, and enjoy the challenge of solving difficult problems, mastering new tools, and advancing my knowledge of programming languages and frameworks. I am eager to continue my development and expand my engineering skills!"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1CYyJ2B9-wQHgM9sVqvNvzNsuAnSbqaaBetQ8HhFeCa0/edit?usp=sharing", // Set to empty to hide the button
@@ -147,14 +147,20 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Hack Reactor",
       logo: require("./assets/images/hackreactor.png"),
       subHeader: "Advanced Software Engineering Certificate",
       duration: "2023",
-      desc: "Hack Reactor Scholarship Recipient"
+      desc: "Hack Reactor Scholarship Recipient",
+      descBullets: [
+        "Transitioned monolith to microservices using Dockerized RESTful APIs, optimizing PostgreSQL infrastructure and a Django-based Poller for improved app performance and real time communication.",
+        "Integrated React front-end components for intuitive interaction with microservices, enhancing application management.",
+        "Leveraged AGILE methodology, emphasizing SQL database schema design and wireframe creation for optimal performance.",
+        "Ensured secure user authentication with JWTdown, prioritizing data protection and privacy."
+      ]
     },
     {
       schoolName: " University of California, Los Angeles",
@@ -199,20 +205,6 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "University of California, Los Angeles",
-      company: "UCLA",
-      companylogo: require("./assets/images/uclaLogo.png"),
-      date: "September 2015 – June 2019",
-      desc: "Bachelor of Arts in Political Science, Minor in Philosophy",
-      descBullets: [
-        "Afrikan Student Union.",
-        "Coaching Corps Vice President.",
-        "Sigma Chi Fraternity.",
-        "Bruin Woods Athletic Director.",
-        "HR Assistant Athletics Department."
-      ]
-    },
-    {
       role: "Cloud Technology Consultant",
       company: "Oracle",
       companylogo: require("./assets/images/oracle.png"),
@@ -237,20 +229,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineering Student",
-      company: "Hack Reactor",
-      companylogo: require("./assets/images/hackreactorlogo2.png"),
-      date: "June 2023 - November 2023",
-      desc: "Galvanize / Hack Reactor Scholarship Recipient",
-      descBullets: [
-        "Transitioned monolith to microservices using Dockerized RESTful APIs, optimizing PostgreSQL infrastructure and a Django-based Poller for improved app performance and real time communication.",
-        "Integrated React front-end components for intuitive interaction with microservices, enhancing application management.",
-        "Leveraged AGILE methodology, emphasizing SQL database schema design and wireframe creation for optimal performance.",
-        "Ensured secure user authentication with JWTdown, prioritizing data protection and privacy."
-      ]
-    },
-    {
-      role: "Technical Solutions Engineer",
+      role: "Solutions Engineer",
       company: "Datadog",
       companylogo: require("./assets/images/datadogLogo.png"),
       date: "June 2024 - present",
