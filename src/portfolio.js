@@ -38,7 +38,7 @@ const greeting = {
   username: "Jonathan Gordon",
   title: "Hi all, I'm Jonathan",
   subTitle: emoji(
-    "I'm a full stack software developer driven by a passion for problem solving and innovation. Following my graduation from UCLA, my professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create effective solutions, troubleshoot complex issues, and improve end-user experiences as a Solutions Engineer at Datadog. I thrive in the ever-evolving programming landscape, and enjoy the challenge of solving difficult problems, mastering new tools, and advancing my knowledge of programming languages and frameworks. I am eager to continue my development and expand my engineering skills!"
+    "I am a software engineer driven by a passion for problem solving and innovation. Following my graduation from UCLA, my professional journey began in the tech industry as a Cloud Technology Consultant at Oracle. Fueled by the desire to improve the tools I utilized, I transitioned to software engineering, graduating from Hack Reactor's advanced software engineering bootcamp. Now, I apply my skills to create effective solutions, troubleshoot complex issues, and improve end-user experiences as a Solutions Engineer at Datadog. I thrive in the ever-evolving programming landscape, and enjoy the challenge of solving difficult problems, mastering new tools, and advancing my technical knowledge. I am eager to continue my development and expand my engineering skills!"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1CYyJ2B9-wQHgM9sVqvNvzNsuAnSbqaaBetQ8HhFeCa0/edit?usp=sharing", // Set to empty to hide the button
@@ -234,7 +234,7 @@ const workExperiences = {
       companylogo: require("./assets/images/datadogLogo.png"),
       date: "June 2024 - present",
       descBullets: [
-        "Specialized in Application Performance Monitoring, resolving 900+ complex customer issues through deep investigation into traces, spans, and customer architecture.",
+        "Specialized in Application Performance Monitoring, resolving 1k+ complex customer issues through deep investigation into traces, spans, and customer architecture.",
         "Partnered cross-functionally with Product and Engineering teams by documenting and channeling field insights into actionable feedback ultimately influencing roadmap prioritization and improving feature usability.",
         "Led technical calls, trainings, and deep-dive presentations to internal and external stakeholders, translating complex observability and tracing concepts into actionable guidance for development and operations teams.",
         "Improved reusable solution architectures and best-practice playbooks that addressed recurring customer use cases, enabling scale across multiple accounts and reducing redundant customer requests."
